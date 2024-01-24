@@ -1,0 +1,24 @@
+.content-menu{
+    display: block;
+    margin-top: 100px;
+    height: 706px;
+    width: 100%;
+}
+header{
+    position: relative;
+}
+
+.title-logo,.list{
+    position: absolute;
+}
+.title-logo{
+    left: 6%;
+}
+.web-site,.project,.about,.events,.career,.contact{
+    position: absolute;
+    top:200px;
+    left:100px;
+}
+.title-what,.title-project,.title-about,.title-events,.title-career,.title-contact{
+    font-size: 50px;
+}

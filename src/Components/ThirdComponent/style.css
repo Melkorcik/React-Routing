@@ -1,0 +1,34 @@
+.section-with-two-images{
+    position: relative;
+    height: 800px;
+}
+.image,.image_{
+    position: absolute;
+    box-shadow: 2px 0px 6px 6px black;
+    width:696px;
+    height: 500px;
+}
+.image{
+  top:105px;
+  left:204px;    
+}
+.image_{
+    top:303px;
+    left:603px;
+}
+.arrow{
+    position: absolute;
+    top:663px;
+    left:696px;
+    width:35px;
+    height: 35px;
+}
+.arrow:hover{
+    cursor: pointer;
+    transition:0.4s;
+    scale:1.3;
+}
+.arrow:not(:hover){
+    transition:0.4s;
+    scale:1;
+}

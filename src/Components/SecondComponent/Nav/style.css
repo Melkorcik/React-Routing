@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    position: absolute;
+    top:9px;
+    right: 10%;
+    width: 600px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.LI{
+    text-decoration: none;
+}
+.LI:hover{
+    cursor: pointer;
+    transition:0.2s;
+    color:whitesmoke;
+}
+.LI:not(:hover){
+    transition:0.2s;
+    color:black;
+}

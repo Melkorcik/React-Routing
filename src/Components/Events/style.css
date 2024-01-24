@@ -1,0 +1,14 @@
+.container-events{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1400px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    background-color: rgb(238, 231, 231);;
+}
+.box-desc-ev{
+    display: flex;
+}
+.card-events{
+    width: 350px;
+}
