@@ -6,6 +6,7 @@ import About from './About/About';
 import Events from './Events/Events';
 import Career from './Career/Career';
 import Contact from './Contact/Contact';
+import Err from './Err/Err';
 import Nav from './Nav/Nav';
 import background from './img/istockphoto-1455884361-2048x2048.jpg';
 
@@ -18,12 +19,13 @@ export default function Menu(){
                 <BrowserRouter>
                     <Nav/>
                     <Routes>
-                        <Route path="/project" element={<Project/>}></Route>
-                        <Route path="/what" element={<What/>}></Route>
-                        <Route path="/about" element={<About/>}></Route>
-                        <Route path="/events" element={<Events/>}></Route>
-                        <Route path="/career" element={<Career/>}></Route>
-                        <Route path="/contact" element={<Contact/>}></Route>
+                        <Route exect path="*" element={<Err/>}></Route>
+                        <Route exect path="/project" element={<Project/>}></Route>
+                        <Route exect path="/what" element={<What/>}></Route>
+                        <Route exect path="/about" element={<About/>}></Route>
+                        <Route exect path="/events" element={<Events/>}></Route>
+                        <Route exect path="/career" element={<Career/>}></Route>
+                        <Route exect path="/contact" element={<Contact/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </header>
